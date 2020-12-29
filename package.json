@@ -1,0 +1,19 @@
+{
+  "name": "build-node-js-api-in-under-30-minutes",
+  "version": "1.0.0",
+  "description": "following freecodecamp's article on building an api with node js in under 30 minutes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newshahn/node-js-api-under-30-minutes.git"
+  },
+  "author": "Newsha Hosseiny Nik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newshahn/node-js-api-under-30-minutes/issues"
+  },
+  "homepage": "https://github.com/newshahn/node-js-api-under-30-minutes#readme"
+}
