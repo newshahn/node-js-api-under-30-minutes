@@ -10,11 +10,10 @@ const port = 8000;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 MongoClient.connect(db.url, (err, database) => {
-  const database = database.db("note-api");
   if (err) return console.log(err);
+  var database = database.db("note-api");
+  require("./app/routes")(app, database);
 });
-
-require("./app/routes")(app, {});
 
 app.listen(port, () => {
   console.log("server is listening on " + port);
